@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./Assets/logo2.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Coin FX</title>
+    <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+  var _smartsupp = _smartsupp || {};
+  _smartsupp.key = '3080afc7dc355d55019493f45372416a43913d68';
+  window.smartsupp||(function(d) {
+    var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+    s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+    c.type='text/javascript';c.charset='utf-8';c.async=true;
+    c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+  })(document);
+  </script>
+  </head>
+  <body>
+    <header class="navbar">
+      <nav>
+        <div class="navbar-brand">
+          <img src="./assets/logo.png" alt="Coin FX" />
+        </div>
+        <div class="hamburger" onclick="hamburgerClick()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li class="nav-link"><a href="./index.html">Home</a></li>
+            <li class="nav-link"><a href="#about">About Us</a></li>
+            <li class="nav-link">
+              <a href="#pricing">Our Pricing</a>
+            </li>
+            <li class="nav-link"><a href="./html/faq.html">Faqs</a></li>
+            <li class="nav-link"><a href="./html/contact.html">Contact</a></li>
+            <li class="nav-link"><a href="./html/signin.html">Login</a></li>
+            <li class="nav-link"><a href="./html/signup.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="landing">
+      <div id="google_translate_element"></div>
+      <div class="bg-overlay"></div>
+      <div class="landing-container container">
+        <div class="landing-img">
+          <img data-aos="fade-left" data-aos-duration="1000" src="./Assets/l1.png">
+          <img data-aos="fade-right" data-aos-duration="1000" src="./Assets/l2.png">
+        </div>
+        <div class="landing-text" data-aos="fade-up" data-aos-duration="3000">
+          <h1 class="landing-title mb-4">The Perfect Financial Solution For You.</h1>
+          <p class="mb-4">Our superb financial technologies make all the difference in connecting you to financial organizations, capital specialists, and investors.</p>
+          <a href="#" class="lcta">Create Account</a>
+          <a href="#" class="si lcta">Sign in</a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="landing-bottom">
+      <div class="row container-fluid">
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="lbc" data-aos="fade-up-right" data-aos-duration="1500">
+            <div class="lbc-step">
+              <p>01</p>
+            </div>
+            <div class="lbc-content">
+              <p class="lbc-sub">We are helpers.</p>
+              <h2 class="lbc-title">Advice and guidelines.</h2>
+              <p class="lbc-desc">
+                Taking the time to manage your money better can really pay off.
+                It can help you stay on top of your bills.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="lbc" data-aos="fade-up-left" data-aos-duration="1500">
+            <div class="lbc-step">
+              <p>02</p>
+            </div>
+            <div class="lbc-content">
+              <p class="lbc-sub">Quick & Smart.</p>
+              <h2 class="lbc-title">Tools.</h2>
+              <p class="lbc-desc">
+                We have the best financial trading tools which can help you grow
+                your finances smartly.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="lbc" data-aos="fade-up-right" data-aos-duration="1500">
+            <div class="lbc-step">
+              <p>03</p>
+            </div>
+            <div class="lbc-content">
+              <p class="lbc-sub">Friendly Support.</p>
+              <h2 class="lbc-title">Support in person.</h2>
+              <p class="lbc-desc">
+                Support in person, over the email and online. Web chat is
+                available from 8am to 8pm.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="video">
+      <div class="video-desc text-center container-fluid">
+        <p class="sub text-primary">Profitable And Successful Investments</p>
+        <h1 class="title">
+          Internal Accounting, Trading Data & Market Economic Indicators
+        </h1>
+      </div>
+      <div class="video-sect container">
+        <div class="video-background-overlay">
+          <div class="video-background"></div>
+        </div>
+        <div class="video-btn"></div>
+      </div>
+    </section> -->
+    
+    <section class="abu" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="abu-content">
+              <div class="abu-title">
+                <p class="sub">All about us</p>
+                <h1 class="title">ONE TOKEN. 3 INVESTMENT PLANS. 8 REVENUE STREAMS.</h1>
+              </div>
+              <div class="ab-desc">
+                <p>
+                  Exclusive Miners is building the decentralized gateway to investment space. Our Investment Solution enables users access to deep, cross-chain liquidity in one place - across DEXs, CEXs, and swap pools (Coming Soon) - providing access to the best crypto investment in the market without the need to ever give up their real identity. Exclusive Miners seeks to solve the fragmentation of crypto markets, NFTs marketplaces, and assets from traditional finance by eventually aggregating them into one place: Exclusive Miners Terminal. 
+                </p>
+                <p class="mt-4">
+                  Exclusive Miners is building over a dozen solutions for blockchains, exchanges, and crypto projects, resulting in over eighteen revenue streams on the protocol. The Exclusive Miners ecosystem has been built with Exclusive Miners TOKEN holders in mind: every transaction across the multiple solutions on the protocol adds to Daily Protocol Volume, bringing lucrative rewards for stakers.
+                </p>
+                <ul class="mb-5">
+                  <li>Secured and reliable fund management.</li>
+                  <li>Top notch customer care representatives.</li>
+                  <li>Experienced financial analysts and managers.</li>
+                  <li>Swift funding with worldwide payment systems.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="mt-5">
+              <img src="./assets/images/outstanding.jpg" alt="" width="100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="counter" id="counter">
+        <div class="row text-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="count">
+              <div>
+                <span class="counting" id="t1">0</span>
+                <span style="font-size: 45px; color: #000">%</span>
+              </div>
+              <div>
+                <div class="count-title">GUARANTEED RETURNS</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="count">
+              <div>
+                <span class="counting" id="t2">0</span>
+                <span style="font-size: 45px; color: #000">%</span>
+              </div>
+              <div>
+                <div class="count-title">SUCCESSFUL TRADES</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="count">
+              <div>
+                <span class="counting" id="t3">0</span>
+                <span style="font-size: 45px; color: #000">%</span>
+              </div>
+              <div>
+                <div class="count-title">FUND MANAGEMENT</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing -->
+    
+    <section class="pp" id="pricing">
+      <div class="pp-desc text-center">
+        <div class="container">
+          <p class="sub">Get Started Now</p>
+          <h1 class="title">Our Pricing Plans</h1>
+          <p class="title-desc">
+            Get started now with us to earn every day and forever with our range
+            of plans. We accept Investment from all over the world.
+          </p>
+        </div>
+      </div>
+      <div class="pp-cards container-fluid">
+            <div class="pp-card" data-aos="fade-up" data-aos-duration="1500">
+              <div class="pp-img">
+                <img src="./assets/images/logo/cCoin.png" alt="">
+                <div class="pp-img-smt">
+                  <p>25% After 24 hours</p>
+                </div>
+              </div>
+              <div class="ppc-desc text-center">
+                <h2 class="ppc-title">Basic Plan</h2>
+                <div class="caption">
+                  <div>
+                    <span>Min</span>
+                    <span>£500</span>
+                  </div>
+                  <div>
+                    <span>Max</span>
+                    <span>£4999</span>
+                  </div>
+                  <div>
+                    <span>Refferal</span>
+                    <span>%40</span>
+                  </div>
+                </div>
+                <br /><button href="#" class="cta-btn pp-btn">Get Started</button>
+              </div>
+            </div>
+          
+            <div class="pp-card" data-aos="fade-up" data-aos-duration="1500">
+              <div class="pp-img">
+                <img src="./assets/images/logo/cCoin.png" alt="">
+                <div class="pp-img-smt">
+                  <p>30% After 24 hours</p>
+                </div>
+              </div>
+              <div class="ppc-desc text-center">
+                <h2 class="ppc-title">Exclusive Plan</h2>
+                <div class="caption">
+                  <div>
+                    <span>Min</span>
+                    <span>£5000</span>
+                  </div>
+                  <div>
+                    <span>Max</span>
+                    <span>£9999</span>
+                  </div>
+                  <div>
+                    <span>Refferal</span>
+                    <span>%40</span>
+                  </div>
+                </div>
+                <br /><button href="#" class="cta-btn pp-btn">Get Started</button>
+              </div>
+            </div>
+          
+            <div class="pp-card" data-aos="fade-up" data-aos-duration="1500">
+              <div class="pp-img">
+                <img src="./assets/images/logo/cCoin.png" alt="">
+                <div class="pp-img-smt">
+                  <p>40% After 24 hours</p>
+                </div>
+              </div>
+              <div class="ppc-desc text-center">
+                <h2 class="ppc-title">Premium Plan</h2>
+                <div class="caption">
+                  <div>
+                    <span>Min</span>
+                    <span>£10000</span>
+                  </div>
+                  <div>
+                    <span>Max</span>
+                    <span>£50000</span>
+                  </div>
+                  <div>
+                    <span>Refferal</span>
+                    <span>%40</span>
+                  </div>
+                </div>
+                <br /><button href="#" class="cta-btn pp-btn">Get Started</button>
+              </div>
+            </div>
+          
+            <div class="pp-card" data-aos="fade-up" data-aos-duration="1500">
+              <div class="pp-img">
+                <img src="./assets/images/logo/cCoin.png" alt="">
+                <div class="pp-img-smt">
+                  <p>50% After 24 hours</p>
+                </div>
+              </div>
+              <div class="ppc-desc text-center">
+                <h2 class="ppc-title">Golden Plan</h2>
+                <div class="caption">
+                  <div>
+                    <span>Min</span>
+                    <span>£60000</span>
+                  </div>
+                  <div>
+                    <span>Max</span>
+                    <span>Unlimited</span>
+                  </div>
+                  <div>
+                    <span>Refferal</span>
+                    <span>%40</span>
+                  </div>
+                </div>
+                <br /><button href="#" class="cta-btn pp-btn">Get Started</button>
+              </div>
+            </div>
+      </div>
+    </section>
+    <!-- Reputation -->
+    <section class="rep">
+      <div class="container">
+        <div class="rep-desc text-center">
+          <p class="sub">Our Reputation</p>
+          <h1 class="title">Why should you choose us?</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="rep-card" data-aos="fade-right" data-aos-duration="1500">
+              <div class="rc-icon">
+                <img src="./assets/images/icons/i1.png" alt="" />
+              </div>
+              <div class="rc-content">
+                <h2 class="rc-title">Regulated Custodian</h2>
+                <p class="rc-desc">
+                  All investments are backed by mandatory capital reserves as a
+                  regulated entity. We hold a financial services licence which
+                  authorizes us to issue and act as a trustee to investment
+                  schemes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="rep-card" data-aos="fade-left" data-aos-duration="1500">
+              <div class="rc-icon">
+                <img src="./assets/images/icons/i2.png" alt="" />
+              </div>
+              <div class="rc-content">
+                <h2 class="rc-title">Transparency</h2>
+                <p class="rc-desc">
+                  No hidden charges, maintenance or withdrawal fee. Transparency
+                  is the only policy and we strive to achieve the best result
+                  with integrity, not just with our clients, but also our
+                  traders.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="rep-card" data-aos="fade-right" data-aos-duration="1500">
+              <div class="rc-icon">
+                <img src="./assets/images/icons/i3.png" alt="" />
+              </div>
+              <div class="rc-content">
+                <h2 class="rc-title">Secured Transactions</h2>
+                <p class="rc-desc">
+                  Security tops our list of interest, our very dynamic platform
+                  is protected & encrypted using government standard AES
+                  encryption. You can rest easy about the safety of your funds
+                  and personal information.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="rep-card" data-aos="fade-left" data-aos-duration="1500">
+              <div class="rc-icon">
+                <img src="./assets/images/icons/i4.png" alt="" />
+              </div>
+              <div class="rc-content">
+                <h2 class="rc-title">Reliable Client Support</h2>
+                <p class="rc-desc">
+                  Our dedicated client support team provides all clients with
+                  personalized service and support. Work privately with one of
+                  our experienced traders straight through settlement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="rep-card" data-aos="fade-right" data-aos-duration="1500">
+              <div class="rc-icon">
+                <img src="./assets/images/icons/i5.png" alt="" />
+              </div>
+              <div class="rc-content">
+                <h2 class="rc-title">Instant Funding</h2>
+                <p class="rc-desc">
+                  All our funding options including deposits and payouts are
+                  processed with speed to not delay investor’s activities and to
+                  enable fast closure of transaction.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="rep-card" data-aos="fade-left" data-aos-duration="1500">
+              <div class="rc-icon">
+                <img src="./assets/images/icons/i6.png" alt="" />
+              </div>
+              <div class="rc-content">
+                <h2 class="rc-title">Deep Market Liquidity</h2>
+                <p class="rc-desc">
+                  REMI CRYPTO' global network of institutional and individual
+                  traders and investors hail from over 100 countries worldwide
+                  and provide great depth to our trading book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Recent investors -->
+    <section class="ra">
+      <div class="ra-desc text-center">
+        <p class="sub">Recent Activities</p>
+        <h1 class="title">Latest Investors</h1>
+      </div>
+      <div class="container table-container">
+        <table id="investors" data-aos="fade-down" data-aos-duration="1500">
+          <tbody>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Amount</th>
+              <th>Date/Time</th>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="assets/images/icons/btc_full.png" alt="Bitcoin" />
+              </td>
+              <td>asadf8537</td>
+              <td>£158.00</td>
+              <td>2022-05-16 22:35:54</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="assets/images/icons/btc_full.png" alt="Bitcoin" />
+              </td>
+              <td>seanw6467</td>
+              <td>£720,000.00</td>
+              <td>2022-05-08 12:59:58</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="assets/images/icons/btc_full.png" alt="Bitcoin" />
+              </td>
+              <td>seanw6467</td>
+              <td>£80,000.00</td>
+              <td>2022-05-08 12:58:50</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="assets/images/icons/btc_full.png" alt="Bitcoin" />
+              </td>
+              <td>fivetalljones</td>
+              <td>£760.00</td>
+              <td>2022-05-03 22:37:42</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="assets/images/icons/btc_full.png" alt="Bitcoin" />
+              </td>
+              <td>deldarm</td>
+              <td>£200.00</td>
+              <td>2022-05-01 19:59:36</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="assets/images/icons/btc_full.png" alt="Bitcoin" />
+              </td>
+              <td>fivetalljones</td>
+              <td>£599.00</td>
+              <td>2022-04-30 20:26:55</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- Live trading charts  -->
+    <section class="ltc">
+      <div class="ltc-desc text-center">
+        <p class="sub">Live Trade Charts</p>
+        <h1 class="title">Today's Market Performance</h1>
+      </div>
+      <div class="container row ltc-cnt">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div
+            class="tradingview-widget-container"
+            style="width: 100%; height: 550px"
+          >
+            <iframe
+              scrolling="no"
+              allowtransparency="true"
+              frameborder="0"
+              src="https://s.tradingview.com/embed-widget/market-overview/?locale=en#%7B%22colorTheme%22%3A%22dark%22%2C%22dateRange%22%3A%2212m%22%2C%22showChart%22%3Atrue%2C%22width%22%3A%22100%25%22%2C%22height%22%3A%22550%22%2C%22largeChartUrl%22%3A%22%22%2C%22isTransparent%22%3Afalse%2C%22plotLineColorGrowing%22%3A%22rgba(25%2C%20118%2C%20210%2C%201)%22%2C%22plotLineColorFalling%22%3A%22rgba(25%2C%20118%2C%20210%2C%201)%22%2C%22gridLineColor%22%3A%22rgba(42%2C%2046%2C%2057%2C%201)%22%2C%22scaleFontColor%22%3A%22rgba(120%2C%20123%2C%20134%2C%201)%22%2C%22belowLineFillColorGrowing%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22belowLineFillColorFalling%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22symbolActiveColor%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22tabs%22%3A%5B%7B%22title%22%3A%22Indices%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22OANDA%3ASPX500USD%22%2C%22d%22%3A%22S%26P%20500%22%7D%2C%7B%22s%22%3A%22OANDA%3ANAS100USD%22%2C%22d%22%3A%22Nasdaq%20100%22%7D%2C%7B%22s%22%3A%22FOREXCOM%3ADJI%22%2C%22d%22%3A%22Dow%2030%22%7D%2C%7B%22s%22%3A%22INDEX%3ANKY%22%2C%22d%22%3A%22Nikkei%20225%22%7D%2C%7B%22s%22%3A%22INDEX%3ADEU30%22%2C%22d%22%3A%22DAX%20Index%22%7D%2C%7B%22s%22%3A%22OANDA%3AUK100GBP%22%2C%22d%22%3A%22FTSE%20100%22%7D%5D%2C%22originalTitle%22%3A%22Indices%22%7D%2C%7B%22title%22%3A%22Commodities%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22CME_MINI%3AES1!%22%2C%22d%22%3A%22E-Mini%20S%26P%22%7D%2C%7B%22s%22%3A%22CME%3A6E1!%22%2C%22d%22%3A%22Euro%22%7D%2C%7B%22s%22%3A%22COMEX%3AGC1!%22%2C%22d%22%3A%22Gold%22%7D%2C%7B%22s%22%3A%22NYMEX%3ACL1!%22%2C%22d%22%3A%22Crude%20Oil%22%7D%2C%7B%22s%22%3A%22NYMEX%3ANG1!%22%2C%22d%22%3A%22Natural%20Gas%22%7D%2C%7B%22s%22%3A%22CBOT%3AZC1!%22%2C%22d%22%3A%22Corn%22%7D%5D%2C%22originalTitle%22%3A%22Commodities%22%7D%2C%7B%22title%22%3A%22Bonds%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22CME%3AGE1!%22%2C%22d%22%3A%22Eurodollar%22%7D%2C%7B%22s%22%3A%22CBOT%3AZB1!%22%2C%22d%22%3A%22T-Bond%22%7D%2C%7B%22s%22%3A%22CBOT%3AUB1!%22%2C%22d%22%3A%22Ultra%20T-Bond%22%7D%2C%7B%22s%22%3A%22EUREX%3AFGBL1!%22%2C%22d%22%3A%22Euro%20Bund%22%7D%2C%7B%22s%22%3A%22EUREX%3AFBTP1!%22%2C%22d%22%3A%22Euro%20BTP%22%7D%2C%7B%22s%22%3A%22EUREX%3AFGBM1!%22%2C%22d%22%3A%22Euro%20BOBL%22%7D%5D%2C%22originalTitle%22%3A%22Bonds%22%7D%2C%7B%22title%22%3A%22Forex%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22FX%3AEURUSD%22%7D%2C%7B%22s%22%3A%22FX%3AGBPUSD%22%7D%2C%7B%22s%22%3A%22FX%3AUSDJPY%22%7D%2C%7B%22s%22%3A%22FX%3AUSDCHF%22%7D%2C%7B%22s%22%3A%22FX%3AAUDUSD%22%7D%2C%7B%22s%22%3A%22FX%3AUSDCAD%22%7D%5D%2C%22originalTitle%22%3A%22Forex%22%7D%5D%2C%22utm_source%22%3A%22remicrypto.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22market-overview%22%7D"
+              style="box-sizing: border-box; height: calc(518px); width: 100%"
+            ></iframe>
+
+            <style>
+              .tradingview-widget-copyright {
+                font-size: 13px !important;
+                line-height: 32px !important;
+                text-align: center !important;
+                vertical-align: middle !important;
+                /* @mixin sf-pro-display-font; */
+                font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS",
+                  Roboto, Ubuntu, sans-serif !important;
+                color: #9db2bd !important;
+              }
+
+              .tradingview-widget-copyright .blue-text {
+                color: #2962ff !important;
+              }
+
+              .tradingview-widget-copyright a {
+                text-decoration: none !important;
+                color: #9db2bd !important;
+              }
+
+              .tradingview-widget-copyright a:visited {
+                color: #9db2bd !important;
+              }
+
+              .tradingview-widget-copyright a:hover .blue-text {
+                color: #1e53e5 !important;
+              }
+
+              .tradingview-widget-copyright a:active .blue-text {
+                color: #1848cc !important;
+              }
+
+              .tradingview-widget-copyright a:visited .blue-text {
+                color: #2962ff !important;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div
+            class="tradingview-widget-container"
+            style="width: 100%; height: 550px"
+          >
+            <iframe
+              allowtransparency="true"
+              frameborder="0"
+              src="https://www.tradingview-widget.com/embed-widget/crypto-mkt-screener/?locale=en#%7B%22width%22%3A%22100%25%22%2C%22height%22%3A%22550%22%2C%22defaultColumn%22%3A%22overview%22%2C%22screener_type%22%3A%22crypto_mkt%22%2C%22displayCurrency%22%3A%22USD%22%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Afalse%2C%22market%22%3A%22crypto%22%2C%22enableScrolling%22%3Atrue%2C%22utm_source%22%3A%22remicrypto.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22cryptomktscreener%22%7D"
+              style="box-sizing: border-box; height: calc(518px); width: 100%"
+            ></iframe>
+
+            <style>
+              .tradingview-widget-copyright {
+                font-size: 13px !important;
+                line-height: 32px !important;
+                text-align: center !important;
+                vertical-align: middle !important;
+                /* @mixin sf-pro-display-font; */
+                font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS",
+                  Roboto, Ubuntu, sans-serif !important;
+                color: #9db2bd !important;
+              }
+
+              .tradingview-widget-copyright .blue-text {
+                color: #2962ff !important;
+              }
+
+              .tradingview-widget-copyright a {
+                text-decoration: none !important;
+                color: #9db2bd !important;
+              }
+
+              .tradingview-widget-copyright a:visited {
+                color: #9db2bd !important;
+              }
+
+              .tradingview-widget-copyright a:hover .blue-text {
+                color: #1e53e5 !important;
+              }
+
+              .tradingview-widget-copyright a:active .blue-text {
+                color: #1848cc !important;
+              }
+
+              .tradingview-widget-copyright a:visited .blue-text {
+                color: #2962ff !important;
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section  -->
+    <section class="mq text-center mqs">
+      <h2 class="mb-4 mq-title">Do the right thing at the right time</h2>
+      <a href="#" class="lcta-btn">Get Started</a>
+    </section>
+    <footer class="footer">
+      <div class="footer-widget">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 footer--widget widget-about">
+              <div class="widget-content">
+                <img
+                  class="footer-logo mb-3"
+                  src="assets/logo.png"
+                  alt="logo"
+                />
+                <p>
+                  CoinFX is among the most diversified financial service
+                  companies in the world. Our fundamental mission is to help
+                  customers and clients achieve their financial objectives.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 footer--widget widget-links">
+              <div class="widget-title">
+                <h5>Head Office</h5>
+              </div>
+              <div class="widget-content">
+                <p>
+                  <span class="footer-white">Address: </span>Conservative Office, 88 Rectory Ln, Chelmsford CM1 1RF.
+                  <br><span class="footer-white">Email:</span
+                  ><a href="mailto:support@remicrypto.com">
+                    support@remicrypto.com</a
+                  ><br>
+                  <span class="footer-white">Phone: </span
+                    ><a href="tel:+447442877487">+44 7442 877487</a>
+                </p>
+                </p>
+                <p>
+                </p>
+                <p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 footer--widget widget-links">
+              <div class="widget-title">
+                <h5>Resources</h5>
+              </div>
+              <div class="widget-content">
+                <ul>
+                  <li class="nav-link"><a href="./index.html">Home</a></li>
+                  <li class="nav-link"><a href="#about">About Us</a></li>
+                  <li class="nav-link">
+                    <a href="#pricing">Our Pricing</a>
+                  </li>
+                  <li class="nav-link"><a href="./html/faq.html">Faqs</a></li>
+                  <li class="nav-link"><a href="./html/contact.html">Contact</a></li>
+                  <li class="nav-link"><a href="./html/signin.html">Login</a></li>
+                  <li class="nav-link"><a href="./html/signup.html">Sign Up</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center p-4">
+        <p>Copyright © 2022. CoinFX. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      }
+      </script>
+      
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>
